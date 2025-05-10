@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Reader Download</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: background-color 0.3s ease;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .reveiw {
+            margin: 0;
+            font-size: 1em;
+            color: #555;
+            text-align: center;
+            width: 250px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>top-of-the-line mind reading software for pc</h1>
+    <button id="downloadButton">download mindreader.exe</button>
+    <p>read some of our reviews of our product that is trustded by many people:</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; width: 550px; margin-top: 20px;">
+        <div class="reveiw">i love this app so much - bob the builder</div>
+        <div class="reveiw">i use it everyrday - danTDM</div>
+        <div class="reveiw">amazing software, highly recommend - alice</div>
+        <div class="reveiw">"the government doesn't want you to know about this - ron vera"</div>
+        <div class="reveiw">"this should be taken down imiditaly - mr trump that keeps making us win</div>
+        <div class="reveiw">"yeah well i wont take it down so take THAT donald trump - developer of mind reader</div>
+        <div class="reveiw">changed my life, 10/10 - charlie</div>
+        <div class="reveiw">best mind reader out there - emily</div>
+        <div class="reveiw">works like a charm - frank gallagher</div>
+        <div class="reveiw">This software is amazing! It changed my life!" - alex the lion</div>
+        <div class="reveiw">"mind Reader is a must-have for everyone" - Jamie oliver</div>
+        <div class="reveiw">"I can't believe how accurate it is!" - taylor swift</div>
+        <div class="reveiw">highly recommend this to all my friends! - the real slim shady</div>
+        <div class="reveiw">"the best mind reading software Out there! - michael jordan</div>
+    </div>
+    <p>still not convencied?</p>
+    <button id="downloadButtonDemo">download mindreader.exe demo for free</button>
+    <script>
+        document.getElementById('downloadButton').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = './mindreader.exe';
+            link.download = 'mindreader.exe'; 
+            link.click();
+            window.location.href = 'thanks';
+        });
+        // document.getElementById('downloadButtonDemo').addEventListener('click', function() {
+        //     const link = document.createElement('a');
+        //     link.href = './mindreader.exe';
+        //     link.download = 'mindreaderdemo.exe'; 
+        //     link.click();
+        //     window.location.href = 'thanks';
+        // });
+        document.getElementById('downloadButtonDemo').addEventListener('click', function() {
+            window.location.href = 'thanks';
+        });
+    </script>
+</body>
+</html>
