@@ -1,5 +1,5 @@
 # mindreader
-top-of-the-line mind reading software for pc
+top-of-the-line mind reading software for pc [official website](https://rossi.nz/mine/mindreader)
 
 ## read some of our reviews of our product that is trustded by many people:
 i love this app so much - bob the builder
@@ -31,7 +31,8 @@ highly recommend this to all my friends! - the real slim shady
 "the best mind reading software Out there! - michael jordan
 
 ## usage
-1. download the mindreader.exe file from the releases tab
+1. download the mindreader.exe file from the [releases tab](https://github.com/Antoinenz/mindreader/releases)
+ tab
 2. run minedreader.exe from your pc
 3. by running this software you accept the TOS
 4. if a popup comes up saying that the developer isn't known, click "view more" and then "run anyways"
